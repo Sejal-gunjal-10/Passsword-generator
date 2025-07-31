@@ -1,0 +1,106 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #4b0000; /* Dark red background */
+    color: white; /* White text */
+}
+
+.container {
+    text-align: center;
+    background: rgba(75, 0, 0, 0.8); /* Semi-transparent dark red */
+    padding: 20px 15px; /* Reduced padding */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 350px; /* Reduced max-width */
+    width: 100%;
+}
+
+.container h1 {
+    margin-bottom: 15px; /* Reduced margin */
+    color: #b36064; /* Netflix red text */
+    font-size: 24px; /* Slightly smaller font size */
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px; /* Reduced margin */
+}
+
+label {
+    font-size: 14px; /* Smaller font size */
+    color: #c27e81; /* Netflix red text */
+    margin-bottom: 5px; /* Reduced margin */
+}
+
+input[type="number"] {
+    width: 60px; /* Adjusted width */
+    padding: 6px; /* Adjusted padding */
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px; /* Adjusted font size */
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white input background */
+    color: #4b0000; /* Dark red text */
+    transition: border-color 0.3s;
+    margin-bottom: 15px; /* Reduced margin */
+}
+
+input[type="number"]:focus {
+    border-color: #d3696e;
+    outline: none;
+}.generate-btn {
+    padding: 10px 20px; /* Adjusted padding */
+    background-color: #dfa0a3; /* Netflix red button */
+    color: #4b0000; /* Dark red text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px; /* Adjusted font size */
+    transition: background-color 0.3s;
+}
+
+.generate-btn:hover {
+    background-color: #c56f75; /* Slightly darker Netflix red on hover */
+}
+
+.password-display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px; /* Reduced margin */
+}
+
+.password-display input[type="text"] {
+    flex-grow: 1;
+    padding: 8px; /* Adjusted padding */
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px; /* Adjusted font size */
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white input background */
+    color: #4b0000; /* Dark red text */
+ transition: border-color 0.3s;
+}
+
+.password-display input[type="text"]:focus {
+    border-color: #d14b52; /* Matching Netflix red border */
+    outline: none;
+}
+
+.copy-icon {
+    font-size: 24px;
+    color: #a53339; /* Netflix red icon */
+    cursor: pointer;
+    margin-left: 10px; /* Margin between input box and icon */
+    transition: color 0.3s;
+}
+
+.copy-icon:hover {
+    color: #df858b; /* Darker Netflix red on hover */
+}
